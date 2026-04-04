@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Streaming">
+        <setting id="stream_quality" type="enum" label="30001" values="Auto|High|Medium|Low" default="0"/>
+        <setting id="use_inputstream_adaptive" type="bool" label="30002" default="true"/>
+        <setting id="timeout" type="number" label="30003" default="15"/>
+    </category>
+    <category label="Notifications">
+        <setting id="enable_notifications" type="bool" label="30004" default="true"/>
+        <setting id="notification_interval" type="enum" label="30005" values="1 minute|2 minutes|5 minutes|10 minutes" default="1"/>
+        <setting id="notification_sound" type="bool" label="30006" default="true"/>
+    </category>
+    <category label="EPG">
+        <setting id="epg_cache_minutes" type="enum" label="30007" values="15 minutes|30 minutes|1 hour|2 hours" default="1"/>
+        <setting id="show_offline_channels" type="bool" label="30008" default="true"/>
+        <setting id="clear_all_cache" type="action" label="30011" action="RunPlugin(plugin://plugin.video.freehit/?action=clear_all_cache)" option="close"/>
+    </category>
+    <category label="Sources">
+        <setting id="primary_source" type="enum" label="30009" values="freehit.eu|smartcric|touchcric" default="0"/>
+        <setting id="fallback_sources" type="bool" label="30010" default="true"/>
+    </category>
+</settings>

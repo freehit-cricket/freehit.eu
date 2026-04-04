@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.freehit" name="Freehit" version="1.0.0" provider-name="freehit.eu">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="inputstream.adaptive" version="20.3.0"/>
+        <import addon="script.module.inputstreamhelper" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">Watch live cricket streaming from freehit.eu</summary>
+        <description lang="en_GB">Stream live cricket matches including IPL, PSL, and international cricket from freehit.eu. Features multiple quality options, EPG/schedule support, and live match notifications.</description>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <forum></forum>
+        <website>https://freehit.eu</website>
+        <email></email>
+        <source></source>
+        <news>v1.0.0
+- Initial release
+- Live cricket streaming from freehit.eu
+- Multiple stream quality options
+- EPG/schedule support
+- Live match notifications
+- Multi-source fallback support</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <disclaimer lang="en_GB">This add-on is not affiliated with freehit.eu. Streams are provided by third parties.</disclaimer>
+    </extension>
+</addon>
