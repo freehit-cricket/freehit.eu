@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 <addon id="plugin.video.freehit" name="Freehit" version="1.0.0" provider-name="freehit.eu">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
-        <import addon="inputstream.adaptive" version="20.3.0"/>
+        <import addon="inputstream.adaptive" optional="true"/>
         <import addon="script.module.inputstreamhelper" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
@@ -34,3 +35,29 @@
         <disclaimer lang="en_GB">This add-on is not affiliated with freehit.eu. Streams are provided by third parties.</disclaimer>
     </extension>
 </addon>
+
+<addon id="repository.freehit" name="Freehit Add-on Repository" version="1.0.0" provider-name="freehit.eu">
+    <extension point="xbmc.addon.repository" name="Freehit Add-on Repository">
+	<dir>
+	    <info compressed="false">https://github.com/freehit-cricket/freehit.eu/raw/main/repo/addons.xml</info>
+	    <checksum>https://github.com/freehit-cricket/freehit.eu/raw/main/repo/addons.xml.md5</checksum>
+	    <datadir zip="true">https://github.com/freehit-cricket/freehit.eu/raw/main/repo/</datadir>
+	</dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Install Add-ons for Kodi from Freehit Add-on Repository</summary>
+        <description lang="en_GB">Video plug-ins for Kodi by Freehit!</description>
+        <disclaimer>This repo is not endorsed by freehit.eu</disclaimer>
+        <platform>all</platform>
+        <language>en</language>
+        <license>GPL-2.0-or-later</license>
+        <forum></forum>
+        <website>https://freehit-cricket.github.io/freehit.eu</website>
+        <source>https://github.com/freehit-cricket/freehit.eu</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>
