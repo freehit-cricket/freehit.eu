@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin.video.freehit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-04\n"
+"PO-Revision-Date: 2026-04-04\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+
+msgctxt "#30001"
+msgid "Stream Quality"
+msgstr "Stream Quality"
+
+msgctxt "#30002"
+msgid "Use InputStream Adaptive"
+msgstr "Use InputStream Adaptive"
+
+msgctxt "#30003"
+msgid "Connection Timeout (seconds)"
+msgstr "Connection Timeout (seconds)"
+
+msgctxt "#30004"
+msgid "Enable Live Match Notifications"
+msgstr "Enable Live Match Notifications"
+
+msgctxt "#30005"
+msgid "Check Interval"
+msgstr "Check Interval"
+
+msgctxt "#30006"
+msgid "Play Notification Sound"
+msgstr "Play Notification Sound"
+
+msgctxt "#30007"
+msgid "EPG Cache Duration"
+msgstr "EPG Cache Duration"
+
+msgctxt "#30008"
+msgid "Show Offline Channels"
+msgstr "Show Offline Channels"
+
+msgctxt "#30009"
+msgid "Primary Source"
+msgstr "Primary Source"
+
+msgctxt "#30010"
+msgid "Enable Fallback Sources"
+msgstr "Enable Fallback Sources"
+
+msgctxt "#30011"
+msgid "Clear All Cache"
+msgstr "Clear All Cache"
