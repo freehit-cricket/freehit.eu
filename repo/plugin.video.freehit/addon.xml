@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.freehit" name="Freehit" version="1.0.0" provider-name="freehit.eu">
+<addon id="plugin.video.freehit" name="Freehit" version="1.0.1" provider-name="freehit.eu">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
@@ -18,12 +18,11 @@
         <website>https://freehit.eu</website>
         <email></email>
         <source></source>
-        <news>v1.0.0
-- Initial release
-- Live cricket streaming from freehit.eu
-- Multiple stream quality options
-- EPG/schedule support
-- Live match notifications
+        <news>v1.0.1
+- Removed inputstream.adaptive dependency
+- Improved channel listing and stream quality selection
+- Added Clear All Cache option
+- Better live/offline channel indicators
 - Multi-source fallback support</news>
         <assets>
             <icon>icon.png</icon>
