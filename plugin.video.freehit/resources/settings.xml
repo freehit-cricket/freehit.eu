@@ -2,7 +2,6 @@
 <settings>
     <category label="Streaming">
         <setting id="stream_quality" type="enum" label="30001" values="Auto|High|Medium|Low" default="0"/>
-        <setting id="use_inputstream_adaptive" type="bool" label="30002" default="true"/>
         <setting id="timeout" type="number" label="30003" default="15"/>
     </category>
     <category label="Notifications">

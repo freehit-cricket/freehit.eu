@@ -3,8 +3,6 @@
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
-        <import addon="inputstream.adaptive" optional="true"/>
-        <import addon="script.module.inputstreamhelper" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>

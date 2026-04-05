@@ -47,11 +47,6 @@ def add_stream_item(label, url, info=None, art=None):
     if art:
         li.setArt(art)
 
-    use_isa = get_setting_bool("use_inputstream_adaptive")
-    if use_isa:
-        li.setProperty("inputstream", "inputstream.adaptive")
-        li.setProperty("inputstream.adaptive.manifest_type", "hls")
-
     xbmcplugin.addDirectoryItem(HANDLE, url, li, False)
 
 
@@ -183,12 +178,6 @@ def show_streams(channel_id, source="freehit.eu"):
 def play_stream(url):
     li = xbmcgui.ListItem(path=url, offscreen=True)
     li.setProperty("IsPlayable", "true")
-
-    use_isa = get_setting_bool("use_inputstream_adaptive")
-    if use_isa:
-        li.setProperty("inputstream", "inputstream.adaptive")
-        li.setProperty("inputstream.adaptive.manifest_type", "hls")
-
     xbmcplugin.setResolvedUrl(HANDLE, True, li)
 
 
